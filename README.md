@@ -58,7 +58,7 @@ perimeter.
 19. Write a menu driven program to perform the following functions on strings:
 a. Find the length of string
 b. Return maximum of three strings
-c. Accept a string and replace every successive character with ‘#’ ExampleFor Given string ‘Hello World’ returned string is ‘H#l#o W#r#d’.
+c. Accept a string and replace every successive character with ‘#’ Example - For Given string ‘Hello World’ returned string is ‘H#l#o W#r#d’.
 d. Find number of words in the given string
 20. Write a Python program to perform the following using list:
 a. Check if all elements in list are numbers or not
