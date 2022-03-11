@@ -1,0 +1,15 @@
+def main():
+        n1=int(input(‘Enter first number:’))
+       n2=int(input(‘Enter second number:’))
+        if(n1&gt;n2):
+          g=n1
+    else:
+         g=n2
+         while(True):
+                  if ((g%n1==0)and (g%n2==0)):
+                      lcm=g
+                      print(&#39;Least common multiple=&#39;,lcm)
+                     break
+        g+=1   
+if __name__==’__main__’:
+main()
