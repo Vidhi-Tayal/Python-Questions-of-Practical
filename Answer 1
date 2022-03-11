@@ -1,0 +1,66 @@
+x = 8
+y = 5
+Operator	Name & Meaning	Example & Result
++	Addition: Add two operands or unary plus	x + y = 13
+–	Subtraction: Subtract right operand from the left	x – y = 3
+*	Multiplication: Multiplies two operands	x * y = 45
+/	Division: Divides left operand by the right one	x / y = 1.6
+%	Modulus – Takes the remainder	x % y = 3
+//	Floor division: Division that results into the whole number truncating digits after decimal point	x // y = 1
+**	Exponent – left operand raised to the power of right	x**y (8^5) = 32,768
+
+                                    Python Relational Operator or Comparison Operator
+Relational or Comparison Operators are used to compare the operands on the either side of them.
+Operator	Meaning
+>	Greater than: Eg. x > y will return true if x is greater than y
+<	Less than: Eg. x < y will return true if x is less than y
+==	Equal to: Eg. x == y will return true if x is equal to y
+!=	Not equal to:eg x != y  will return true 
+>=	Greater Than or Equal to: Eg. x >= y will return true if x is greater than or equal to y
+<=	Less Than or Equal to: Eg. x <= y will return true if x is less than or equal to y
+                                         examples 
+x=4
+y=6
+x>y # check if x is greater than y
+x<y # check if x is less than y
+x==y # if x is equal to y
+x != y # if x is not equal to y  
+x >= y # if x is greater than or equal to y   
+x <= #  if x is less than or equal to y
+
+                                Python Logical Operators
+There are three Python logical operators: and or and not.
+
+Operator	Meaning
+and	(x and y) will return true if x and y both are true
+or	(x or y) will return true if either of x or y is true
+not	(not x) will return true if x is false or will return false if x is true. not reverses or complements the operands
+                                                           examples
+x=1
+y=2
+x>2 and y>1 # to get true both condition must be true
+x>2 or y>1 # to get true either of x or y must be true
+not x<2 # x is less than 2 , which is true , but not will make it false .
+
+                                             Python Assignment Operators
+As simple as it sounds assignment operators are used for assigning values to variables.
+
+Operator	Example 	         Meaning
+=       	x = 1          	Assigns 1 to x
++=	      x += 1	          x = x + 1
+-=	      x -= 1          	x = x – 1
+/=	      x /= 1	          x = x / 1
+%=	      x %= 1	          x = x % 1
+*=      	x *= 1	          x = x * 1
+**=	      x **= 1         	x= x ** 1
+//=	x //= 1	x = x // 1
+                                                        Python Bitwise Operators
+Bitwise operators are used to compare (binary) numbers:
+
+Operator	             Name	                            Description
+& 	                   AND	                       Sets each bit to 1 if both bits are 1
+|	                      OR                         Sets each bit to 1 if one of two bits is 1
+ ^	                    XOR	                      Sets each bit to 1 if only one of two bits is 1
+~ 	                    NOT	                     Inverts all the bits
+<<	               Zero fill left shift	       Shift left by pushing zeros in from the right and let the leftmost bits fall off
+>>	               Signed right shift	         Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
