@@ -1,0 +1,9 @@
+a=int(input("enter a year"))
+if(a%400==0):
+    print(a, "its a leap year")
+elif(a%100==0):
+    print(a, "its a leap year")
+elif(a%4==0):
+    print(a, "its a leap year")
+else:
+    print(a, "its not a leap year")
